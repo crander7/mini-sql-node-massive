@@ -1,0 +1,90 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url('http://wallpapercave.com/wp/6vsnmq7.png') no-repeat center;
+  background-size: cover;
+}
+ui-view {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+}
+.button-holder > button {
+  height: 30px;
+  width: auto;
+  display: block;
+  position: absolute;
+  right: 625px;
+  top: 350px;
+}
+.home-background {
+  height: 212px;
+  width: 337px;
+  display: block;
+  background: url('http://www.new-chitose-airport.jp/ja/spend/shop/poke_logo.jpg') center;
+  background-size: cover;
+  position: relative;
+  margin: 100px auto 0 auto;
+}
+.prod-wrapper {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.prod-card {
+  height: 50vh;
+  width: 30vw;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-top: 30px;
+}
+.prod-name {
+  font-size: 40px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.prod-img {
+  height: 75%;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 100%;
+  width: auto;
+}
+.prod-details {
+  width: 100%;
+  font-size: 20px;
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.details {
+  position: relative;
+  bottom: -8px;
+}
+.price {
+  font-size: 30px;
+}
+.prod-card:hover {
+  box-shadow: 0 0 20px 3px white;
+}
+.add-fields {
+  margin-left: 300px;
+  margin-top: 50px;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+}

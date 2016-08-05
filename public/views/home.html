@@ -1,0 +1,21 @@
+<div class="home-background"></div>
+
+<div class="button-holder">
+    <button type="button" ui-sref='products'>Get Products</button>
+</div>
+
+<div class="add-fields">
+    <input type="text" placeholder="Product Name" ng-model="name"/>
+    <input type="text" placeholder="Product Description" ng-model="desc"/>
+    <input type="text" placeholder="Product Price" ng-model="price"/>
+    <input type="text" placeholder="product img Url" ng-model="img"/>
+    <button type="button" ng-click="addProduct(name, desc, price, img)">SUBMIT</button>
+</div>
+
+<form ng-submit="removeProduct(deleteID)">
+  <input type="text" ng-model="deleteID" placeholder="Delete Product ID">
+</form>
+
+<form ng-submit="getProduct(getID)">
+  <input type="text" ng-model="getID" placeholder="Product to Get">
+</form>

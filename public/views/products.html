@@ -1,0 +1,12 @@
+<div class="prod-wrapper">
+<div class="prod-card" ng-repeat="product in products">
+  <h2 class="prod-name">{{ product.name }}</h2>
+  <div class="prod-img">
+    <img src="{{ product.imageurl }}" alt="" />
+  </div>
+  <div class="prod-details">
+    <span class="details">{{ product.description }}</span>
+    <span class="price">${{ product.price }}</span>
+  </div>
+</div>
+</div>
